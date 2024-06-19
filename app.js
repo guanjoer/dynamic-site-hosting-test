@@ -3,7 +3,7 @@ const path = require('path');
 
 const express = require('express');
 
-const db = require('./data/database');
+const db = require('./data/database-public');
 const mainRoutes = require('./routes/main.routes');
 
 const app = express();
